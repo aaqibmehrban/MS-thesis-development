@@ -1,0 +1,27 @@
+name: msthesis
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - geopandas
+  - geopy
+  - h3-py=3.7.7
+  - jupyterlab
+  - mamba
+  - mapclassify
+  - matplotlib
+  - momepy
+  - openjdk
+  - osmnx
+  - owslib
+  - pandas<2.1.0
+  - pyogrio
+  - pyrosm
+  - pysal
+  - r5py>=0.1.1.dev0
+  - pip
+  - pip:
+      - r5py.sampledata.helsinki>=0.1.1.dev0
+      - r5py.sampledata.sao_paulo>=0.1.1.dev0
